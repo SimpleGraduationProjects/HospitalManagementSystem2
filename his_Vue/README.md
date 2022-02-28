@@ -1,10 +1,5 @@
 ## his 前端项目
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hosoneu/his_Vue)
-![GitHub](https://img.shields.io/github/license/hosoneu/his_Vue)
-[![HitCount](http://hits.dwyl.com/hosoneu/his_Vue.svg)](http://hits.dwyl.com/hosoneu/his_Vue)
-![GitHub last commit](https://img.shields.io/github/last-commit/hosoneu/his_Vue)
-
 基于vue框架的his前端项目
 
 IDE统一采用WebStorm
@@ -42,15 +37,8 @@ npm install -g @vue/cli --registry https://registry.npm.taobao.org
 3. 下载并安装webstorm
 
 #### 1.2 开始构建
-0. 配置一个奇怪配置
-````
-npm config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
-````
 
 1. git clone
-```bash
-git clone git@github.com:hosoneu/his_Vue.git
-```
 
 2. 切到下载后的目录
 ``` bash
@@ -60,9 +48,6 @@ cd his_Vue
 ````bash
 npm install --registry https://registry.npm.taobao.org --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
 ````
-
-4. 添加本地配置 参考[issues#9](https://github.com/hosoneu/his_Vue/issues/9),若不配置下一步无法通过编译
-
 5. 启动服务
 ````bash
 npm run serve
